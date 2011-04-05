@@ -11,6 +11,7 @@ Using scons to build the "libudf_levenshtein.so" file, but also included a Ruby 
 version and a rakefile with specs in it for testing.
 
 Move the libudf_levenshtein.so file to you mysql plugins directly and install with:
+  
   "CREATE FUNCTION levenshtein RETURNS INTEGER SONAME 'libudf_levenshtein.so';"
 
 Usage
