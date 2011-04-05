@@ -1,0 +1,10 @@
+.redcar
+*.gemspec
+pkg
+*~
+*.*~
+*.rspec
+*.document
+.sconsign.dblite
+*.so
+*.os
