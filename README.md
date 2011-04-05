@@ -16,7 +16,9 @@ Move the libudf_levenshtein.so file to you mysql plugins directly and install wi
 Usage
 ====
   SQL: 
+  
   "select * from table where levenshtein(column1, column2) < 10"
+  
   "select * from table where levenshtein(column1, column2, 10) < 10"
   
   The 3 parameter signature adds a threshold to the comparison and can significantly
